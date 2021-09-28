@@ -114,7 +114,7 @@
             <div class="col-sm-5">
                 <div class="float-right">
                     <img id="preview-image" src="{{asset('storage/' . $model->image)}}" alt=""
-                        style="max-height: 200px;"> </div>
+                        style="max-height: 200px; max-width: 200px;"> </div>
             </div>
         </div>
     </div>
