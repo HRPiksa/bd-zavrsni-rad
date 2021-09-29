@@ -32,7 +32,7 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="firstname" placeholder="myusername"
+                                    <input type="text" class="form-control" id="firstname" placeholder="Ime"
                                         name="firstname" autofocus>
                                     <label for="firstname">Ime</label>
                                 </div>
@@ -40,15 +40,16 @@
 
                             <div class="col-6">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="lastname" placeholder="myusername"
-                                        name="lastname" autofocus>
+                                    <input type="text" class="form-control" id="lastname" placeholder="Prezime"
+                                        name="lastname">
                                     <label for="lastname">Prezime</label>
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="usernamRegistriran si
+                            <input type="text" class="form-control" id="username" placeholder="Korisnik"
+                                        name="username">
                             <label for=" username">Korisničko ime</label>
                         </div>
 
