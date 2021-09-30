@@ -18,8 +18,8 @@
 
 <div class="iframe-container">
     <iframe src="{{ asset('files/Seminarski rad_BE DEVELOPER.pdf') }}" width="90%" height="600">
-        This browser does not support PDFs. Please download the PDF to view it: <a
-            href="{{ asset('files/Seminarski rad_BE DEVELOPER.pdf') }}">Download PDF</a>
+        Ovaj preglednik ne podržava PDF-ove. Molimo preuzmite PDF za pregled: <a
+            href="{{ asset('files/Seminarski rad_BE DEVELOPER.pdf') }}">Preuzimanje PDF datoteke</a>
     </iframe>
 </div>
 

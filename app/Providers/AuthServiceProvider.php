@@ -26,6 +26,10 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
+        /**
+         * 
+         * Dio koda koji je potrebno zakomentirati prije pokretanja naredbe : composer install
+         */
         Permission::get()->map( function ( $permission ) {
             Gate::define(
                 $permission->slug,
@@ -34,5 +38,8 @@ class AuthServiceProvider extends ServiceProvider
                 }
             );
         } );
+        /**
+         * ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         */
     }
 }

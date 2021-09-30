@@ -23,8 +23,15 @@ class ComposerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        /**
+         *
+         * Dio koda koji je potrebno zakomentirati prije pokretanja naredbe : composer install
+         */
         view()->composer( 'home.*', function ( $view ) {
             $view->with( 'pages', \App\Models\Page::defaultOrder()->withDepth()->get()->toTree() );
         } );
+        /**
+         * ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         */
     }
 }

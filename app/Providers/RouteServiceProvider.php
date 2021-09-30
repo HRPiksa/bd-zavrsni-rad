@@ -47,9 +47,16 @@ class RouteServiceProvider extends ServiceProvider
                 ->namespace( $this->namespace )
                 ->group( base_path( 'routes/web.php' ) );
 
+            /**
+             *
+             * Dio koda koji je potrebno zakomentirati prije pokretanja naredbe : composer install
+             */
             foreach ( \App\Models\Page::all() as $page ) {
                 Route::view( $page->url, 'home.page', array( 'page' => $page ) );
             }
+            /**
+             * ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+             */
         } );
     }
 

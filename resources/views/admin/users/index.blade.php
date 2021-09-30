@@ -202,7 +202,6 @@
             type: 'GET',
             dataType: 'json',
             success: function(result) {
-                //alert(result.html);
                 $('#viewUserModalBody').html(result.html);
                 $('#viewUserModal').show();
             }

@@ -9,7 +9,6 @@
         <div class="jumbotron jumbotron-fluid bg-dark">
 
             <div class="jumbotron-background">
-                {{-- <img src="https://placeimg.com/2000/1000/nature" class="blur "> --}}
                 <img src="/storage/images/backgrounds/home.jpg" class="blur ">
             </div>
 
